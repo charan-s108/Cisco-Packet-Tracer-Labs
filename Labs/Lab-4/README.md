@@ -1,4 +1,4 @@
-# Lab-4: Two-Router Network Setup
+# Lab-4: Two-Router Network
 
 ## Objective
 Learn advanced networking concepts by setting up a network with two routers and three distinct networks in Cisco Packet Tracer.
@@ -21,9 +21,9 @@ Learn advanced networking concepts by setting up a network with two routers and 
 |         |                              | PC2   | 2.2.2.2       | 255.0.0.0         | 2.2.2.1             |
 |         |                              | PC3   | 2.2.2.3       | 255.0.0.0         | 2.2.2.1             |
 | 2       | Switch                       | 1     |               |                   |                     |
-| 3       | Router1                      | Fa0/0 | 1.1.1.1       | 255.0.0.0         |                     |
+| 3       | Router0                      | Fa0/0 | 1.1.1.1       | 255.0.0.0         |                     |
 |         |                              | Fa0/1 | 3.3.3.1       | 255.0.0.0         |                     |
-| 4       | Router2                      | Fa0/0 | 2.2.2.1       | 255.0.0.0         |                     |
+| 4       | Router1                      | Fa0/0 | 2.2.2.1       | 255.0.0.0         |                     |
 |         |                              | Fa0/1 | 3.3.3.2       | 255.0.0.0         |                     |
 
 ### Routing Table Configuration
@@ -33,10 +33,10 @@ Learn advanced networking concepts by setting up a network with two routers and 
    - Go to the `Config` -> `Routing` -> `Static`.
    - Enter the network, subnet mask and next hop as shown in the table.
 
-| Network       | Subnet Mask   | Next Hop    |
-|---------------|---------------|-------------|
-| 2.0.0.0       | 255.0.0.0     | 3.3.3.2     |
-| 1.0.0.0       | 255.0.0.0     | 3.3.3.1     |
+| Router Nane   | Network       | Subnet Mask   | Next Hop    |
+|---------------|---------------|---------------|-------------|
+| Router0       | 2.0.0.0       | 255.0.0.0     | 3.3.3.2     |
+| Router1       | 1.0.0.0       | 255.0.0.0     | 3.3.3.1     |
 
 ## Steps
 
