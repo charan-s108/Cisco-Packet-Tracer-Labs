@@ -60,7 +60,6 @@ Learn advanced networking concepts by setting up a network with two routers and 
      - Open the `Command Prompt` on each PC.
      - Use the `ping` command to test connectivity between PCs in the same network and across different networks (e.g., `ping 2.2.2.2` from PC0 or `ping 1.1.1.2` from PC2).
    - **Using Message PDU Tool:**
-   - **Using Message PDU Tool:**
      - Click the `Message` PDU tool.
      - Select the source and destination PCs.
      - Check the results in the panel below:
