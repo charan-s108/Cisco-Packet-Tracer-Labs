@@ -38,6 +38,10 @@ Learn advanced networking concepts by setting up a network with two routers and 
 | Router0       | 2.0.0.0       | 255.0.0.0     | 3.3.3.2     |
 | Router1       | 1.0.0.0       | 255.0.0.0     | 3.3.3.1     |
 
+2. **Apply Configuration:**
+   - Click `Add` to add the routes.
+   - Save the configuration.
+
 ## Steps
 
 1. **Open Cisco Packet Tracer.**
